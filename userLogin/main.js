@@ -29,8 +29,8 @@ console.log('user authorization = ' + authStatus);
 
 //Showing the user its logIn process result
 if (authStatus === true) {
-  userMessage.innerHTML = 'Access granted, welcome to the jungle!';
+  userMessage.innerHTML = '<i class="fas fa-lock-open"></i>Access granted!<br>Welcome to the jungle!';
   userMessage.style.background = 'green';
 } else {
-  userMessage.innerHTML = 'Access denied. Maybe next time...';
+  userMessage.innerHTML = '<i class="fas fa-lock"></i>Access denied.<br>Maybe next time...';
 }

@@ -14,11 +14,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #userMessage {
-  padding: 15px 20px;
+  padding: 35px;
   border-radius: 12px;
+  font-family: 'Patua One', cursive;
+  font-size: 50px;
+  text-align: center;
   background: red;
+  color:white;
+}
+
+.fas {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 100px;
   color:white;
 }
