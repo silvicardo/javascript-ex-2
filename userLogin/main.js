@@ -1,3 +1,5 @@
+/* javascriptEx2 - UserLogin - main.js */
+
 
 //Starting with an array
 var registeredUsersMailAddresses = ['michelePapagni@gmail.com',
