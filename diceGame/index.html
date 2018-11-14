@@ -2,13 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Patua+One" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Dice Game</title>
   </head>
   <body>
 
     <div class="main_cnt">
-
+      <div class="dices_cnt">
+        <div id="playerDice" class="dice_shape">
+          <div class="player_type">Player</div>
+          <h2 id="playerNumber" class="diceNumber"></h2>
+        </div>
+        <h1 id="theWinnerIs"></h1>
+        <div id="cpuDice" class="dice_shape">
+          <div class="player_type">CPU</div>
+          <h2 id="cpuNumber" class="diceNumber"></h2>
+        </div>
+      </div>
     </div>
 
     <footer>

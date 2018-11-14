@@ -5,11 +5,67 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Patua One', cursive;
 }
-
 
 .main_cnt {
   width: 100vw;
   height:100vh;
-  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('http://clipart-library.com/images/8iAb997bT.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dices_cnt {
+  padding: 30px 50px;
+  max-width: 90%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background:white;
+}
+
+.dice_shape {
+  width: 200px;
+  height:200px;
+  animation: fullSpin 1s linear;
+  overflow: hidden;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  background: red;
+}
+
+@keyframes fullSpin {
+   100% {
+     transform: rotate(720deg) ;
+   }
+}
+
+.player_type {
+  padding: 15px 25px;
+  width: 100%;
+  font-size: 25px;
+  background: black;
+  color: white;
+}
+
+.diceNumber {
+  font-family: 'Fredoka One', cursive;
+  transition: 2s linear;
+  font-size: 100px;
+  color: white;
+}
+
+#theWinnerIs {
+  font-size: 70px;
+  margin: 50px auto;
 }
